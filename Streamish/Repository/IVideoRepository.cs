@@ -12,5 +12,6 @@ namespace Streamish.Repositories
         void Update(Video video);
 
         List<Video> GetAllWithComments();
+        List<Video> Search(string criterion, bool sortDescending);
     }
 }
