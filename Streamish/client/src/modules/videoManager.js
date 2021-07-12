@@ -14,3 +14,4 @@ export const addVideo = (video) => {
     body: JSON.stringify(video),
   });
 };
+//This module contains functions for getting all videos and addinga new video
