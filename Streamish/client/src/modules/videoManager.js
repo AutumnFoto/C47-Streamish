@@ -14,4 +14,9 @@ export const addVideo = (video) => {
     body: JSON.stringify(video),
   });
 };
+
+export const getVideo = (id) => {
+  return fetch(`${baseUrl}/${id}`).then((res) => res.json());
+};
+
 //This module contains functions for getting all videos and addinga new video
